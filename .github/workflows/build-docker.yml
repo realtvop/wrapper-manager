@@ -35,7 +35,7 @@ jobs:
         context: .
         platforms: ${{ matrix.platform }}
         push: true
-        tags: ghcr.io/${{ github.repository }}:${{ matrix.platform }}
+        tags: ghcr.io/${{ github.repository }}:main
 
   merge:
     runs-on: ubuntu-latest
